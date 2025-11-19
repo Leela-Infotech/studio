@@ -8,7 +8,17 @@
 
 // Enable dynamic title support
 function leela_theme_setup() {
+    // Title
     add_theme_support( 'title-tag' );
+
+    // Support static homepage
+    add_theme_support( 'static-front-page' );
+
+    // Recommended for modern themes
+    add_theme_support( 'customize-selective-refresh-widgets' );
+
+    // (Optional but good to have)
+    add_theme_support( 'post-thumbnails' ); 
 }
 add_action( 'after_setup_theme', 'leela_theme_setup' );
 
