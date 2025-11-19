@@ -11,8 +11,6 @@ get_header();
     <?php 
   get_template_part('template-parts/services-section');
   get_template_part('template-parts/about');
-
-
      ?>
   </div>
 
